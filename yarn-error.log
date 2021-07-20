@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add typeORM
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Cliente\bin;C:\Users\Cliente\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Cliente\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\php;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\composer;C:\Users\Cliente\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\dotnet;C:\Users\Cliente\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Cliente\AppData\Local\Programs\Python\Python39;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Cliente\AppData\Local\Microsoft\WindowsApps;C:\Users\Cliente\AppData\Local\Programs\Microsoft VS Code\bin;C:\php;C:\Users\Cliente\AppData\Roaming\Composer\vendor\bin;C:\Users\Cliente\AppData\Roaming\npm;A:\cmder;C:\Program Files\JetBrains\PhpStorm 2021.1.2\bin;C:\Users\Cliente\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/typeORM: Not found
+      at Request.params.callback [as _callback] (C:\Users\Cliente\AppData\Roaming\nvm\v14.16.0\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\Cliente\AppData\Roaming\nvm\v14.16.0\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\Cliente\AppData\Roaming\nvm\v14.16.0\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\Cliente\AppData\Roaming\nvm\v14.16.0\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "Agda",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsc && nodemon src/index.js "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "nodemon": "^2.0.12",
+      "tslint": "^5.12.1",
+      "typescript": "^3.3.3"
+    },
+    "dependencies": {
+      "brain.js": "^2.0.0-beta.2",
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,8 @@
+AGDA - Async Guide and Dev Assistant
+
+AGDA é um projeto de Gabriel Ramos Oliveira, iniciado em 19/07/2021.
+
+AGDA é uma inteligencia artificial que tem como objetivo principal o auxílio à estudos e programação, mas também pode ser usada para outros propósitos;
+
+
+---------------------[! AGDA is borning !]---------------------

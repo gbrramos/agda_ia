@@ -1,0 +1,25 @@
+{
+  "name": "Agda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && nodemon src/index.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.2",
+    "electron": "^13.1.7",
+    "express": "^4.17.1",
+    "ts-node": "^10.1.0",
+    "typeorm": "^0.2.34",
+    "web-speech-cognitive-services": "^7.1.0"
+  }
+}
